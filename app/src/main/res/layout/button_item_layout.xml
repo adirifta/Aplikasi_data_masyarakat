@@ -1,0 +1,26 @@
+<!-- button_item_layout.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_margin="10dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginBottom="5dp"
+    android:layout_marginHorizontal="70dp">
+
+    <Button
+        android:id="@+id/itemButton"
+        android:layout_width="220dp"
+        android:layout_height="90dp"
+        android:backgroundTint="#5E737C"
+        android:textColor="@color/white"
+        android:text="Click Me"
+        android:textAllCaps="true"
+        android:fontFamily="@font/roboto_bold"
+        android:textSize="25dp"
+        android:paddingBottom="5dp"/>
+
+</LinearLayout>

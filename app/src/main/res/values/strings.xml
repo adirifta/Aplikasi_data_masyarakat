@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Project</string>
+    <string name="kpu">KPU</string>
+    <string-array name="items_option">
+        <!--        <item>Edit</item>-->
+        <item>Hapus</item>
+        <item>Batal</item>
+    </string-array>
+</resources>

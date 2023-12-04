@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#87A2AE"
+    tools:context=".InformasiActivity">
+
+    <ImageView
+        android:layout_marginTop="50dp"
+        android:layout_width="200dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        android:src="@drawable/kpu">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/infoPemilihanTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:layout_marginTop="20dp"
+        android:text="Informasi Pemilihan Umum"
+        android:layout_gravity="center"
+        android:textAllCaps="true"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/infoPemilihanContent"
+        android:layout_width="300dp"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="Ini adalah informasi tentang pemilihan umum dan tujuan dari aplikasi ini."
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>
